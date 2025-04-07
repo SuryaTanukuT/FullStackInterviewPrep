@@ -1,0 +1,1 @@
+Reconciliation is the process by which React updates the DOM with changes in state or props. React uses its diffing algorithm to compare the new virtual DOM tree with the previous one and applies minimal changes to update the real DOM efficiently.
