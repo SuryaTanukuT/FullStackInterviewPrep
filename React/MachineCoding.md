@@ -232,3 +232,6 @@ Certainly! Here's a curated list of **React machine coding questions** specifica
 ---
 
 This list provides a comprehensive range of coding challenges suitable for both product-based and service-based companies. Let me know if you'd like solutions or further explanation for any of these questions!
+
+
+useState  with form and usereduce with forms
