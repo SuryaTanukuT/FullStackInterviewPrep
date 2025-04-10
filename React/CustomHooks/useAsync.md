@@ -212,4 +212,189 @@ const useAsync = (asyncFunction, deps = []) => {
 
 ## 🧩 Want More?
 
-Need a full example project or want to compare `useAsync` with `React Query` or `SWR`? 
+Need a full example project or want to compare `useAsync` with `React Query` or `SWR`?
+
+```md
+# ⚛️ React: `useAsync` vs React Query – Full Example & Comparison
+
+This guide explores **two approaches to handling async data in React**:
+- Writing your own `useAsync` custom hook
+- Using the battle-tested [React Query](https://tanstack.com/query/latest)
+
+---
+
+## 🧪 Example: Fetching User Profile from an API
+
+---
+
+### 📁 Project Structure
+
+```
+src/
+  components/
+    UserProfile.js        # UI Component
+  hooks/
+    useAsync.js           # Custom hook
+  api/
+    fetchUser.js          # Simulated API
+  App.js
+```
+
+---
+
+## 🔧 1. Custom Hook – `useAsync.js`
+
+```js
+// hooks/useAsync.js
+import { useState, useEffect, useCallback } from "react";
+
+export const useAsync = (asyncFn, deps = []) => {
+  const [status, setStatus] = useState("idle");
+  const [value, setValue] = useState(null);
+  const [error, setError] = useState(null);
+
+  const execute = useCallback(() => {
+    setStatus("pending");
+    setValue(null);
+    setError(null);
+    return asyncFn()
+      .then((res) => {
+        setValue(res);
+        setStatus("success");
+      })
+      .catch((err) => {
+        setError(err);
+        setStatus("error");
+      });
+  }, deps);
+
+  useEffect(() => {
+    execute();
+  }, [execute]);
+
+  return { status, value, error };
+};
+```
+
+---
+
+## 🌐 2. Simulated API – `fetchUser.js`
+
+```js
+// api/fetchUser.js
+export const fetchUser = () =>
+  new Promise((resolve) =>
+    setTimeout(() => resolve({ id: 1, name: "Jane Doe", email: "jane@example.com" }), 1000)
+  );
+```
+
+---
+
+## 👤 3. UI Component – `UserProfile.js` (with useAsync)
+
+```jsx
+// components/UserProfile.js
+import React from "react";
+import { useAsync } from "../hooks/useAsync";
+import { fetchUser } from "../api/fetchUser";
+
+const UserProfile = () => {
+  const { status, value: user, error } = useAsync(fetchUser, []);
+
+  if (status === "pending") return <p>Loading...</p>;
+  if (status === "error") return <p>Error: {error.message}</p>;
+
+  return (
+    <div>
+      <h3>User Profile</h3>
+      <p>Name: {user?.name}</p>
+      <p>Email: {user?.email}</p>
+    </div>
+  );
+};
+
+export default UserProfile;
+```
+
+---
+
+## 🧪 4. Same Component – with React Query
+
+First, install React Query:
+
+```bash
+npm install @tanstack/react-query
+```
+
+Wrap your app with the QueryClientProvider:
+
+```jsx
+// App.js
+import React from "react";
+import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
+import ReactQueryUser from "./components/ReactQueryUser";
+
+const queryClient = new QueryClient();
+
+const App = () => (
+  <QueryClientProvider client={queryClient}>
+    <ReactQueryUser />
+  </QueryClientProvider>
+);
+
+export default App;
+```
+
+Now the component using React Query:
+
+```jsx
+// components/ReactQueryUser.js
+import React from "react";
+import { useQuery } from "@tanstack/react-query";
+import { fetchUser } from "../api/fetchUser";
+
+const ReactQueryUser = () => {
+  const { data: user, isLoading, error } = useQuery({
+    queryKey: ["user"],
+    queryFn: fetchUser,
+  });
+
+  if (isLoading) return <p>Loading...</p>;
+  if (error) return <p>Error: {error.message}</p>;
+
+  return (
+    <div>
+      <h3>User Profile (React Query)</h3>
+      <p>Name: {user?.name}</p>
+      <p>Email: {user?.email}</p>
+    </div>
+  );
+};
+
+export default ReactQueryUser;
+```
+
+---
+
+## ⚖️ `useAsync` vs React Query
+
+| Feature                      | `useAsync`             | React Query                        |
+|-----------------------------|------------------------|------------------------------------|
+| ✨ Simplicity                | ✅ Simple               | ⚠ Slightly more setup              |
+| 🧠 Caching                   | ❌ No cache             | ✅ Built-in caching                 |
+| 🔁 Refetching & Sync        | Manual with `useEffect`| ✅ Auto, background updates         |
+| 🕵️ Devtools                 | ❌ None                 | ✅ Devtools & observability        |
+| 📦 Bundle size              | Tiny (custom hook)     | ~30kb                              |
+| 🧪 Testing                  | Easier to isolate      | More context, but testable         |
+| 🛠 Ideal For                | Small apps, beginners  | Data-heavy, real-time, complex apps|
+
+---
+
+## 🧠 Conclusion
+
+| Want full control and minimal dependencies? | Use `useAsync` |
+|---------------------------------------------|----------------|
+| Need caching, deduping, retries, stale data? | Use React Query |
+
+---
+

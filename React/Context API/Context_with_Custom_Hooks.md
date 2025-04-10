@@ -1,6 +1,3 @@
-Here's a GitHub-friendly Markdown version for **Context with Custom Hooks**, following the same format as the previous ones:
-
----
 
 # 🪝 React Context with Custom Hooks
 
@@ -77,6 +74,3 @@ In a large application with multiple components needing access to the **theme co
 - **Compatibility**: Built using **standard React hooks**; no polyfill required.
 - **Best Practice**: Document the custom hook usage to improve collaboration and understanding across the team.
 
----
-
-✅ Let me know if you’d like all 4 sections bundled into one `.md` file or displayed in a combined document right here.

@@ -1,6 +1,3 @@
-Here's the GitHub-friendly Markdown version for **Reducer-Based Context**, ready to be used in a README:
-
----
 
 # 🔧 React Reducer-Based Context
 
@@ -94,4 +91,221 @@ You have a global theme that can be toggled, set, or reset—possibly in differe
 
 ---
 
-Would you like me to now compile all **5 context patterns** into a single `.md` file and send it as a downloadable resource?
+Would you like me to now compile all **5 context patterns** into a single?
+
+# ⚛️ React Context API – 5 Pattern Combo Example
+
+This example combines **five distinct Context API patterns** into one project to help you master advanced state sharing and management across components.
+
+---
+
+## 📚 Patterns Covered
+
+1. ✅ **Default Context** – Global constants
+2. 🔁 **Dynamic Context** – Mutable state and setters
+3. 🎨 **Nested Context** – Theme/locale scoped at component level
+4. 🧱 **Derived Context** – Computed values based on context state
+5. 🔗 **Dependent Context** – Contexts depending on values from others
+
+---
+
+## 🗂️ Folder Structure
+
+```
+App.js
+contexts/
+  ConfigContext.js       // Default context
+  UserContext.js         // Dynamic context
+  ThemeContext.js        // Nested context
+  AuthContext.js         // Derived context
+  LocaleContext.js       // Dependent context
+components/
+  Section.js
+```
+
+---
+
+## 1️⃣ `ConfigContext.js` — Default Context
+
+```jsx
+import React, { createContext, useContext } from "react";
+
+const ConfigContext = createContext({ appName: "MyApp", version: "1.0" });
+
+export const useConfig = () => useContext(ConfigContext);
+
+export const ConfigProvider = ({ children }) => {
+  const config = { appName: "MyApp", version: "1.0" };
+  return <ConfigContext.Provider value={config}>{children}</ConfigContext.Provider>;
+};
+```
+
+---
+
+## 2️⃣ `UserContext.js` — Dynamic Context
+
+```jsx
+import React, { createContext, useContext, useState } from "react";
+
+const UserContext = createContext(null);
+
+export const useUser = () => useContext(UserContext);
+
+export const UserProvider = ({ children }) => {
+  const [user, setUser] = useState(null);
+
+  const login = (userData) => setUser(userData);
+  const logout = () => setUser(null);
+
+  return (
+    <UserContext.Provider value={{ user, login, logout }}>
+      {children}
+    </UserContext.Provider>
+  );
+};
+```
+
+---
+
+## 3️⃣ `ThemeContext.js` — Nested Context
+
+```jsx
+import React, { createContext, useContext } from "react";
+
+const ThemeContext = createContext("light");
+
+export const useTheme = () => useContext(ThemeContext);
+
+export const ThemeProvider = ({ theme, children }) => {
+  return <ThemeContext.Provider value={theme}>{children}</ThemeContext.Provider>;
+};
+```
+
+---
+
+## 4️⃣ `AuthContext.js` — Derived Context
+
+```jsx
+import React, { createContext, useContext } from "react";
+import { useUser } from "./UserContext";
+
+const AuthContext = createContext(false);
+
+export const useAuth = () => useContext(AuthContext);
+
+export const AuthProvider = ({ children }) => {
+  const { user } = useUser();
+  const isAuthenticated = !!user;
+
+  return <AuthContext.Provider value={isAuthenticated}>{children}</AuthContext.Provider>;
+};
+```
+
+---
+
+## 5️⃣ `LocaleContext.js` — Dependent Context
+
+```jsx
+import React, { createContext, useContext, useState } from "react";
+import { useConfig } from "./ConfigContext";
+
+const LocaleContext = createContext();
+
+export const useLocale = () => useContext(LocaleContext);
+
+export const LocaleProvider = ({ children }) => {
+  const { region } = useConfig(); // depends on config context
+  const [locale, setLocale] = useState(region === "IN" ? "hi-IN" : "en-US");
+
+  return (
+    <LocaleContext.Provider value={{ locale, setLocale }}>
+      {children}
+    </LocaleContext.Provider>
+  );
+};
+```
+
+---
+
+## 🧩 `Section.js`
+
+```jsx
+import React from "react";
+import { useConfig } from "../contexts/ConfigContext";
+import { useTheme } from "../contexts/ThemeContext";
+import { useUser } from "../contexts/UserContext";
+import { useAuth } from "../contexts/AuthContext";
+import { useLocale } from "../contexts/LocaleContext";
+
+const Section = () => {
+  const config = useConfig();
+  const theme = useTheme();
+  const { user, login, logout } = useUser();
+  const isAuthenticated = useAuth();
+  const { locale } = useLocale();
+
+  return (
+    <div style={{ padding: 20, background: theme === "dark" ? "#222" : "#f5f5f5" }}>
+      <h2>{config.appName} v{config.version}</h2>
+      <p>Theme: {theme}</p>
+      <p>Locale: {locale}</p>
+      <p>Auth: {isAuthenticated ? "✅ Logged in" : "❌ Guest"}</p>
+      <p>User: {user?.name ?? "No user"}</p>
+      <button onClick={() => login({ name: "Alice" })}>Login</button>
+      <button onClick={logout}>Logout</button>
+    </div>
+  );
+};
+
+export default Section;
+```
+
+---
+
+## 🧪 `App.js` — Combine Everything
+
+```jsx
+import React from "react";
+import { ConfigProvider } from "./contexts/ConfigContext";
+import { UserProvider } from "./contexts/UserContext";
+import { AuthProvider } from "./contexts/AuthContext";
+import { LocaleProvider } from "./contexts/LocaleContext";
+import { ThemeProvider } from "./contexts/ThemeContext";
+import Section from "./components/Section";
+
+const App = () => {
+  return (
+    <ConfigProvider>
+      <UserProvider>
+        <AuthProvider>
+          <LocaleProvider>
+            <ThemeProvider theme="dark">
+              <Section />
+            </ThemeProvider>
+          </LocaleProvider>
+        </AuthProvider>
+      </UserProvider>
+    </ConfigProvider>
+  );
+};
+
+export default App;
+```
+
+---
+
+## ✅ What You’ve Learned
+
+| Pattern        | Purpose                                             |
+|----------------|-----------------------------------------------------|
+| Default        | Provide static values globally                      |
+| Dynamic        | Share state + state setters                         |
+| Nested         | Override scoped values (like per-section themes)    |
+| Derived        | Compute values from other context(s)                |
+| Dependent      | Use one context's value to shape another's logic    |
+
+---
+
+## 🚀 Next Steps
+
+- 💡 Try memoizing or optimizing with `useMemo`, `useCallback`

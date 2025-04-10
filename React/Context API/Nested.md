@@ -1,6 +1,3 @@
-Here’s the GitHub README-compatible Markdown version for **Nested Context**:
-
----
 
 # 🌲 React Nested Context
 
@@ -77,7 +74,3 @@ A dashboard displays both user-specific information and applies theming. One con
 
 - **Compatibility**: Supported out of the box in **React 16.3+**.
 - **Best Practice**: Use **custom hooks** to simplify access and improve readability.
-
----
-
-Would you like me to compile both `Default Context` and `Nested Context` sections into a single Markdown file?

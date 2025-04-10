@@ -1,4 +1,3 @@
-Here’s a `.md` (Markdown) compatible version of your content, ideal for use in a GitHub README:
 
 ---
 
@@ -78,6 +77,3 @@ Imagine a simple theming system where you want to provide a default theme value 
 - **Compatibility**: Built into React `16.3+`; no additional polyfill is required.
 - **Transpilation**: Use Babel with `@babel/preset-react` to support older browsers.
 
----
-
-Let me know if you want this as a downloadable `.md` file or want similar sections for other context patterns (like nested or dynamic contexts).
