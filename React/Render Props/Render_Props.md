@@ -94,5 +94,3 @@ class Example extends React.Component {
   Exposes form state via render props.
 
 ---
-
-If you want, I can also walk you through how to **refactor a Render Props component to use a custom hook**, since in modern React that’s often more ergonomic. Want to dive into that too?

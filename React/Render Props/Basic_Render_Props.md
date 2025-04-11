@@ -1,6 +1,3 @@
-Perfectly structured! Here's a quick **refresher and comparison table** for **Basic Render Props**, especially useful if you're revising for interviews or documentation:
-
----
 
 ### 📌 **Quick Summary: Basic Render Props**
 

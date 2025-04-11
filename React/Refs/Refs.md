@@ -1,6 +1,3 @@
-Here's a clean, **well-organized Markdown version** of the **"Refs in React"** explanation for your notes, documentation, or interviews:
-
----
 
 # 📌 What Are Refs in React?
 
@@ -188,5 +185,3 @@ function LoginForm() {
 | Triggering methods on child | Useful for reusable UI components     |
 
 ---
-
-Would you like the next section to cover **Custom Hooks**, **Routing Hooks**, or maybe a **summary cheatsheet of all hooks** so far?

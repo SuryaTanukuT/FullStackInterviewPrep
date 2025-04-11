@@ -1,6 +1,3 @@
-Here’s a clean and interview-friendly breakdown of **Local State in React** — ideal for study notes, quick reviews, or documentation:
-
----
 
 ## 🏠 1. Local State in React
 
@@ -80,4 +77,3 @@ A simple counter component where the `count` value is needed only inside the com
 
 ---
 
-Let me know if you want this bundled with visual diagrams, interview Q&A format, or a cheatsheet version!

@@ -1,6 +1,3 @@
-Here's a crisp and interview-ready explanation for **UI State in React**:
-
----
 
 ## 🎛️ 5. UI State
 
@@ -70,5 +67,3 @@ In this example, the `isOpen` state controls the visibility of a modal. It’s n
 - Works natively with React using `useState`, `useReducer`, or UI frameworks (e.g., Headless UI, MUI, etc.).
 
 ---
-
-Would you like a comparison table for all state types (local, global, UI, server, derived) for quick revision?

@@ -1,6 +1,4 @@
-Here’s a polished summary of **Server State in React**, suitable for interview prep, docs, or tech discussions:
 
----
 
 ## 🌐 4. Server State
 
@@ -92,5 +90,3 @@ A blog app that pulls post data from a remote API. Data is **fetched, cached, an
 - Use **Babel** to transpile for older environments if necessary.
 
 ---
-
-Want a quick breakdown on server **mutations** (create/update/delete) or **React Query best practices** like stale time and refetching? Just say the word!

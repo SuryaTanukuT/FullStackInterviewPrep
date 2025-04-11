@@ -1,6 +1,3 @@
-Here’s a clean, structured, and interview-ready version of **"What is State in React?"** — ideal for quick review, documentation, or study notes:
-
----
 
 ## 🔁 What Is State in React?
 
@@ -133,5 +130,3 @@ function TodoApp() {
 | Re-render   | Yes (if changed)     | Yes                      |
 
 ---
-
-Let me know if you want a cheat sheet version or visual diagram for this!

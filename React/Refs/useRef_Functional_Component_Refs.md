@@ -1,6 +1,3 @@
-Here’s a neatly structured **Markdown version** of the `useRef` hook explanation for your documentation, notes, or interview prep:
-
----
 
 # 🪝 `useRef` (Functional Component Refs)
 
@@ -74,5 +71,3 @@ A **login or search form** where you want to **automatically focus an input** wh
 - 🛠 **Transpilation**: Use Babel (`@babel/preset-react`) for older browsers
 
 ---
-
-Let me know if you want a version for `useImperativeHandle`, `forwardRef`, or class-based `createRef` next!

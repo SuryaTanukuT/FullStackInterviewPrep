@@ -1,6 +1,3 @@
-Here’s the **Markdown-formatted version** for `createRef` (class component refs), ideal for documentation or interviews:
-
----
 
 # 🧱 `createRef` (Class Component Refs)
 
@@ -72,6 +69,3 @@ A **class-based component** needs to log or measure a DOM node on mount — for 
 - 🚫 **No polyfill needed**
 - 🛠 Use **Babel** to transpile class components for older browsers if required
 
----
-
-Let me know if you’d like a breakdown of `forwardRef` or `useImperativeHandle` next — those are great to know for reusable component patterns!

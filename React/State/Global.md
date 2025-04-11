@@ -1,6 +1,4 @@
-Here’s a crisp, structured breakdown of **Global State in React** — great for interviews, documentation, or quick reviews:
 
----
 
 ## 🌐 2. Global State in React
 
@@ -83,6 +81,3 @@ A theme switcher in a UI where changing the theme (light/dark) should reflect **
 - No polyfills required for React Context or Redux.
 - Use **Babel** if you need to transpile JSX and modern syntax for older environments.
 
----
-
-Let me know if you want a comparison between **Local vs Global state**, **Redux vs Context**, or a visual diagram of how Context flows!

@@ -1,4 +1,3 @@
-Great summary again! Here's a **visual-style comparison and deeper breakdown** of **Higher-Order Components vs. Render Props**, which could be super handy for interviews or architectural decision-making:
 
 ---
 
@@ -91,6 +90,3 @@ function LoggerProvider({ data, children }) {
 +------------------+
 ```
 
----
-
-Want to see how all three patterns (HOC, Render Props, and Hooks) can be used for the **same logic**, side-by-side?

@@ -1,6 +1,3 @@
-🔥 Perfect explanation of **Shared State with Render Props**! Here's a crisp **visual breakdown**, enhanced with **modern alternatives** and **comparison with Hooks**, which will make this topic interview- and production-ready:
-
----
 
 ### ⚙️ **Core Idea**
 
@@ -102,7 +99,3 @@ function App() {
 | Class Component Support    | ✅ Yes                                    | ❌ No                            |
 | Functional Component Use   | ✅ Okay                                   | ✅ Best with hooks               |
 | Abstraction Depth          | Can get deep (nesting)                   | Flat and readable               |
-
----
-
-Let me know if you want a **context-based alternative** or an example with **modals, forms, or tabs** using shared state!

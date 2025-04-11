@@ -1,6 +1,4 @@
-Here’s a polished, easy-to-read summary of **Batch Updates in React**, perfect for interviews, documentation, or quick learning:
 
----
 
 ## ⚛️ **Batch Updates in React**
 
@@ -115,5 +113,3 @@ In a **financial dashboard**, clicking a "Refresh" button might update multiple 
 | Legacy Help | Use `ReactDOM.unstable_batchedUpdates()` for manual control            |
 
 ---
-
-Want a **side-by-side comparison** of React 17 vs React 18 batching behavior? Or maybe an **interview-style Q&A** based on this topic?

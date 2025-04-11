@@ -1,6 +1,3 @@
-Here's a clean, **interview-friendly** and **Markdown-ready** explanation of `useImperativeHandle` in React:
-
----
 
 # 🛠️ useImperativeHandle (Customizing Ref Behavior)
 
@@ -85,4 +82,3 @@ Using `useImperativeHandle`, you expose only these **two safe methods**.
 
 ---
 
-Let me know if you want a visual diagram or want to combine all four (useRef, createRef, forwardRef, useImperativeHandle) into a cheat sheet!

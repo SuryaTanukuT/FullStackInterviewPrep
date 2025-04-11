@@ -1,6 +1,3 @@
-Here’s a clean and structured breakdown of **Derived State in React** — great for dev notes, interviews, and architecture decisions:
-
----
 
 ## 🧮 3. Derived State
 
@@ -78,4 +75,3 @@ const expensiveDerived = useMemo(() => computeSomething(data), [data]);
 
 ---
 
-Let me know if you want examples using `useMemo`, derived values in Redux selectors, or typical pitfalls to watch out for.

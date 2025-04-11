@@ -1,6 +1,3 @@
-Here's a clean, **Markdown-ready** breakdown of **Forwarding Refs** in React — perfect for interviews, documentation, or study notes:
-
----
 
 # 🔁 Forwarding Refs (Passing Refs to Child Components)
 
@@ -80,6 +77,3 @@ The **parent** wants to call `.focus()` on it directly. Ref forwarding enables t
 - 🚫 No polyfill needed
 - 🛠 Ensure **Babel** is used for transpiling if you target older browsers
 
----
-
-Let me know if you want to dive into `useImperativeHandle` next — it pairs beautifully with `forwardRef` for custom instance APIs!
