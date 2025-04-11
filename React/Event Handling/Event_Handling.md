@@ -1,6 +1,3 @@
-Here’s a clean, structured, and interview-friendly summary of **Event Handling in React**, including examples and concepts:
-
----
 
 ## ⚡ 7. Event Handling in React
 
@@ -149,7 +146,3 @@ function LoginForm({ onLogin }) {
 
 - No polyfills needed — React handles event normalization.
 - Works in all modern browsers via React’s synthetic event system.
-
----
-
-Let me know if you’d like a cheat sheet for common events like `onChange`, `onBlur`, `onSubmit`, or tips on preventing unnecessary re-renders!

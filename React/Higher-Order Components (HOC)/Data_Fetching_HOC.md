@@ -1,4 +1,3 @@
-Here’s a clear and interview-ready breakdown of **Data Fetching Higher-Order Components (HOCs)** — perfect for both documentation and real-world implementation.
 
 ---
 
@@ -125,5 +124,3 @@ Let me know if you want to enhance this with:
 - Pagination support
 - Custom error/loading components
 - Support for `axios` or aborting requests with `AbortController`
-
-Want the same logic built with a custom hook instead of HOC? I can do that too.

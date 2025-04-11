@@ -1,4 +1,3 @@
-Here’s your section on **Portals (Rendered Outside Hierarchy)** formatted for `README.md` with consistent structure and markdown clarity:
 
 ```markdown
 ## 7. Portals (Rendered Outside Hierarchy)
@@ -83,5 +82,3 @@ Imagine rendering a modal confirmation box that should appear **above everything
 
 > 💡 Pro Tip: Combine Portals with CSS modules or utility-first styling like Tailwind for clean layering and transitions.
 ```
-
-Would you like me to prep the **next concept** or start compiling everything into a single comprehensive document with navigation?

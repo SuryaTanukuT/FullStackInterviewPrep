@@ -1,4 +1,3 @@
-Here’s a complete GitHub-friendly `README.md` section for **Functional Components**, formatted consistently with the other sections in a clean and structured way:
 
 ```markdown
 ## 1. Functional Components

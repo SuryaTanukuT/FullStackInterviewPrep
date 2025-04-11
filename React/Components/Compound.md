@@ -1,4 +1,3 @@
-Here’s your **Compound Components** section, ready for inclusion in a markdown-friendly `README.md` or learning doc:
 
 ```markdown
 ## 8. Compound Components
@@ -90,8 +89,3 @@ A tabbed interface where `<Tabs>` holds the state (`activeTab`) and each `<Tab>`
 - ✅ Fully supported using React's standard `props`, `cloneElement`, or Context APIs.
 
 ---
-
-> 💡 Pro Tip: For more scalable compound components, you can refactor state sharing into a Context to eliminate prop injection altogether.
-```
-
-Would you like to continue with the next concept like **Render Props**, or start bundling all these into one exportable file?

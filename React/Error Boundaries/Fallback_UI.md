@@ -1,6 +1,3 @@
-Here’s a polished, interview-ready breakdown of **Fallback UI** in the context of React error boundaries — perfect for real-world dev use, interviews, or docs:
-
----
 
 ## 🧱 5. Fallback UI in Error Boundaries
 
@@ -103,7 +100,3 @@ Instead of the whole page crashing, the user sees:
 - Add a **“Retry”** button using a state reset or reload logic.
 - Consider showing **error codes or bug IDs** for support teams.
 - Log errors behind the scenes (e.g., with Sentry or LogRocket).
-
----
-
-Want a fully reusable fallback component that accepts `onRetry`, `errorCode`, and styling props? I can whip that up too.

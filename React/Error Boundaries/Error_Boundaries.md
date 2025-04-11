@@ -1,6 +1,3 @@
-Here’s a polished and complete summary of **Error Boundaries** in React, including their purpose, how they work, practical examples, and pros & cons — great for interviews, docs, or your personal notes:
-
----
 
 # 🛡️ What Are Error Boundaries?
 
@@ -211,6 +208,3 @@ This is a **solid, comprehensive summary** of React Error Boundaries — perfect
 | ⚙️ **Babel** | Use `@babel/preset-react` for older browser support. |
 | 🌐 **SSR Note** | Error boundaries **don’t catch server-side errors** — handle SSR separately. |
 
----
-
-Let me know if you'd like a visual diagram, markdown export, or cheat sheet version of this summary!

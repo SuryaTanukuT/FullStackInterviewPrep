@@ -1,4 +1,3 @@
-Here’s your section on **Presentational & Container Components** in clean `README.md` markdown format, perfect for GitHub or internal docs:
 
 ```markdown
 ## 6. Presentational & Container Components
@@ -99,5 +98,3 @@ A Todo app where:
 
 > 💡 Pro Tip: Pair presentational components with styling systems like Tailwind or styled-components, and keep container components focused on state, events, and effects.
 ```
-
-Would you like me to bundle all six sections into a single polished document now with a table of contents, or continue with more concepts first?

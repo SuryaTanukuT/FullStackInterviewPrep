@@ -1,4 +1,3 @@
-Here’s your section on **Higher-Order Components (HOC)** formatted for a polished GitHub-style `README.md`, consistent with the rest:
 
 ```markdown
 ## 4. Higher-Order Components (HOC)
@@ -73,5 +72,3 @@ Instead of modifying each component, you wrap them with `withLogger()`—a reusa
 
 > ⚡ Pro Tip: Prefer **Hooks** for most modern use cases. HOCs still shine when enhancing class components or applying logic across many components cleanly.
 ```
-
-Let me know when you're ready for the next section—or if you'd like me to stitch everything together into one full `README.md` file with a TOC!

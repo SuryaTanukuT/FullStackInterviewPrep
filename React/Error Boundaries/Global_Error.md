@@ -1,6 +1,3 @@
-Here's a polished and structured summary of **Global Error Handling** with React Error Boundaries, perfect for interview prep or internal documentation:
-
----
 
 ## 🌐 2. Global Error Handling with Error Boundaries
 
@@ -78,6 +75,3 @@ You’re building a large-scale dashboard or e-commerce app. If something critic
 
 - 🧰 Integrate with services like **Sentry**, **LogRocket**, or **New Relic** in `componentDidCatch` for production-grade monitoring.
 
----
-
-Let me know if you want a custom `GlobalErrorBoundary` component with logging or TypeScript support — happy to generate it!

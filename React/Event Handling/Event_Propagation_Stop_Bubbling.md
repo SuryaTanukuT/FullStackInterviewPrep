@@ -1,6 +1,3 @@
-Here’s a refined and structured explanation for **Event Propagation (Stop Bubbling)** in React:
-
----
 
 # Event Propagation (Stop Bubbling)
 
@@ -81,6 +78,3 @@ In an application with **nested interactive elements**, you may want to isolate 
 - **No Polyfill Required**: `stopPropagation()` is a standard part of the DOM API.
 - **SyntheticEvent Support**: Built into React's event system, ensuring consistent behavior across browsers.
 
----
-
-Let me know if you'd like further refinements or custom examples tailored to your use case!

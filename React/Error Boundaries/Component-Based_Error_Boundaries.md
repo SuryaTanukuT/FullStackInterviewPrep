@@ -1,6 +1,3 @@
-Perfect! Here's a neatly organized and concise summary of **Component-Based Error Boundaries**, ideal for learning, interviews, or documentation:
-
----
 
 ## 🧱 1. Component-Based Error Boundaries
 
@@ -93,6 +90,3 @@ function Dashboard({ chartData }) {
 - **🎯 Why:** To provide graceful fallback UI instead of crashing the whole app.
 - **📍 Where:** Common in dashboards, charts, third-party components, forms, or any part of UI that might break.
 
----
-
-Let me know if you'd like a version using **TypeScript**, **custom logging integrations**, or a **wrapper for functional components** using `useErrorHandler` from libraries like React Error Boundary!

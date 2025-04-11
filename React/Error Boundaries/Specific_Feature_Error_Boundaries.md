@@ -1,6 +1,3 @@
-Here’s a sharp, interview-ready summary of **Specific Feature Error Boundaries** in React — ideal for practical dev use and clean enough for documentation or teaching:
-
----
 
 ## 🧩 4. Specific Feature Error Boundaries
 
@@ -87,7 +84,3 @@ Instead of crashing the entire `Checkout`, a **feature-level error boundary** sh
 - Combine with **logging error boundaries** for visibility.
 - Use **dynamic fallbacks** — e.g., pass error details or retry handlers.
 - Keep a consistent **error boundary pattern** across your app to avoid confusion.
-
----
-
-Let me know if you want a reusable `FeatureErrorBoundary` component with props like `onRetry`, `errorTitle`, etc. — I can mock that up for you!

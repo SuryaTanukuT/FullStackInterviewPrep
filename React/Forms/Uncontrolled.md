@@ -1,3 +1,6 @@
+
+---
+
 ### 2. Uncontrolled Components
 
 #### Explanation
@@ -84,4 +87,3 @@ A **simple contact form** where the values of the fields are only needed when th
 - They are useful in cases where real-time validation or advanced control over the form state isn’t necessary.
 - However, they come with limitations like harder testing, difficulty with real-time validation, and less integration with React’s state system.
 
-Would you like to explore **Hybrid Approaches** or delve into advanced libraries like **React Hook Form** or **Formik** for handling forms in more complex scenarios?

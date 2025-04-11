@@ -1,6 +1,3 @@
-Here’s a concise and structured breakdown of **Logging and Reporting with Error Boundaries** — great for documentation or interview prep:
-
----
 
 ## 🪵 3. Logging and Reporting with Error Boundaries
 
@@ -103,6 +100,3 @@ The `LoggingErrorBoundary` around it logs the failure to **Sentry**, allowing th
 
 - Combine with **global context/state** to show custom modals or report IDs to users.
 
----
-
-Let me know if you'd like a `LoggingErrorBoundary` with TypeScript or a version integrated with Sentry — I can generate that for you in seconds.

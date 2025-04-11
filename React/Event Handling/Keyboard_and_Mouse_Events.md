@@ -1,6 +1,3 @@
-Here’s a refined and structured explanation for **Keyboard & Mouse Events** in React for better readability:
-
----
 
 # Keyboard & Mouse Events in React
 
@@ -93,6 +90,3 @@ function KeyPressInput() {
 - **Polyfill**: No special polyfill is required, as React’s SyntheticEvent system abstracts cross-browser differences.
 - **Build Compatibility**: Ensure ES6+ and modern JavaScript features are supported through tools like Babel.
 
----
-
-Let me know if you'd like further examples or optimizations for handling high-frequency events!
