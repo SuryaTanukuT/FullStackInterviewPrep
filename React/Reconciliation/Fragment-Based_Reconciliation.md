@@ -1,30 +1,26 @@
-Fragment-Based Reconciliation
-Explanation:
 
-React Fragments allow grouping multiple elements without adding extra nodes to the DOM. They help keep the component tree flat and optimize reconciliation by reducing unnecessary wrappers.
+---
 
-Scenario:
+## 6. Fragment-Based Reconciliation
 
-A component that returns multiple adjacent elements without a parent container. Fragments prevent extra <div> wrappers, making reconciliation faster.
+### Explanation
+React Fragments let you group adjacent elements without extra DOM nodes. Helps keep the DOM clean and reduces reconciliation overhead.
 
-Pros:
+### Scenario
+Returning adjacent elements without wrapping them in `<div>` tags.
 
-Cleaner DOM structure.
+### Pros
+- Cleaner DOM
+- Reduces unnecessary wrappers
 
-Reduces overhead by not adding extra nodes.
+### Cons
+- Limited attributes (only `key` supported in long form)
 
-Cons:
+### When/Why/Where
+- **When:** Grouping multiple sibling elements
+- **Why:** DOM optimization
+- **Where:** List rendering, component returns
 
-Limited in terms of attributes (only supports key in the long form).
+### Polyfill/Compatibility
+- Supported since React 16.2+; no polyfill required.
 
-When/Why/Where:
-
-When: When grouping adjacent elements without an extra DOM element.
-
-Why: To optimize the DOM and reconciliation.
-
-Where: In list rendering, component returns, etc.
-
-Polyfill/Compatibility:
-
-Supported in React 16.2+; no polyfill is needed.

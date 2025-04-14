@@ -1,4 +1,3 @@
-Here’s a clean, structured summary of **Virtualisation in React**, perfect for interview prep, documentation, or quick reference:
 
 ---
 
@@ -96,4 +95,3 @@ In a **chat app**, rendering thousands of messages can degrade performance. Virt
 
 ---
 
-Would you like a **visual comparison** between virtualisation and code splitting? Or maybe a **real-world implementation** combining both (like virtualised routes or image-heavy dashboards)?
