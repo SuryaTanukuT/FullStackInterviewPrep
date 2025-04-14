@@ -1,6 +1,4 @@
-Here’s the revised and structured content for **Nested Portals** with enhanced readability:
 
----
 
 # Nested Portals
 

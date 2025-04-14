@@ -109,5 +109,3 @@ With route-based splitting:
   - Use `HashRouter` instead of `BrowserRouter` if the server can't handle HTML5 history.
 
 ---
-
-Would you like a **PDF one-pager** summarizing this for interview prep or a **slide deck format**?

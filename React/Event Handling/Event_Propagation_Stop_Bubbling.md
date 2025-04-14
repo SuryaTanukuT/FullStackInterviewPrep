@@ -1,4 +1,4 @@
-
+```markdown
 # Event Propagation (Stop Bubbling)
 
 ## Explanation
@@ -77,4 +77,54 @@ In an application with **nested interactive elements**, you may want to isolate 
 ## Polyfill/Compatibility
 - **No Polyfill Required**: `stopPropagation()` is a standard part of the DOM API.
 - **SyntheticEvent Support**: Built into React's event system, ensuring consistent behavior across browsers.
+```
 
+To stop bubbling using `stopPropagation()`, the pros and cons, real-world scenarios, and its compatibility.
+
+To stop event bubbling in React, you can use the `stopPropagation()` method within an event handler. This method prevents the event from propagating (or "bubbling") up the DOM hierarchy, which means it will not trigger any event handlers on parent elements.
+
+### How to Stop Bubbling Using `stopPropagation()`:
+
+1. **Attach an event handler to a child element.**
+2. **Call `event.stopPropagation()` inside the event handler.**
+
+This will prevent the event from bubbling to its parent elements.
+
+### Example
+
+Here is an example where clicking a button inside a child component won't trigger the parent component's `onClick` event.
+
+```javascript
+import React from 'react';
+
+function Parent() {
+  const handleParentClick = () => {
+    console.log('Parent clicked!');
+  };
+
+  return (
+    <div onClick={handleParentClick}>
+      <Child />
+    </div>
+  );
+}
+
+function Child() {
+  const handleChildClick = (e) => {
+    e.stopPropagation(); // Stops the click event from bubbling to the parent
+    console.log('Child clicked!');
+  };
+
+  return <button onClick={handleChildClick}>Click Child</button>;
+}
+
+export default Parent;
+```
+
+### Explanation:
+- When you click the **button** inside the `Child` component, it will log `'Child clicked!'`.
+- The `e.stopPropagation()` call prevents the click event from propagating up to the `Parent` component.
+- Without `e.stopPropagation()`, the `Parent` component's `handleParentClick` would also be triggered, logging `'Parent clicked!'` to the console.
+
+### When to Use:
+- To prevent unintended behavior when you have nested elements with their own event handlers. For instance, in forms, modals, or nested clickable elements.

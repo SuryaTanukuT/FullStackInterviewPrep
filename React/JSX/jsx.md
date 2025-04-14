@@ -1,6 +1,3 @@
-Here's a complete, interview-ready summary of **JSX in React** for quick understanding or review:
-
----
 
 ## 🔤 What Is JSX?
 

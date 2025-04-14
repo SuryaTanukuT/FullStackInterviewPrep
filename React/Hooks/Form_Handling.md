@@ -1,6 +1,3 @@
-Here’s a **Markdown version** of the **“Form Handling”** section for your notes, documentation, or interview prep:
-
----
 
 # 📝 5. Form Handling in React
 
@@ -93,5 +90,3 @@ A basic registration or login form where user inputs (like username and email) a
 - For older browser support, use **Babel** or consider libraries like **Formik** or **React Hook Form** (which offer compatibility and features out of the box).
 
 ---
-
-Would you like me to continue with the next hook section (e.g., **Custom Hooks**, **Routing Hooks**, or a **summary cheatsheet**)?

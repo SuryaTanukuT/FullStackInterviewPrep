@@ -1,4 +1,3 @@
-Here’s your neatly structured summary of **“6. Children Props”** in React:
 
 ```markdown
 ## 6. 👶 Children Props

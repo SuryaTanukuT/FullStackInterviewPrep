@@ -1,6 +1,3 @@
-Here’s a **Markdown version** of the **“Performance Optimization Hooks”** section for documentation, interview prep, or study notes:
-
----
 
 # ⚡ 4. Performance Optimization Hooks in React
 
@@ -93,4 +90,3 @@ An analytics dashboard or product list where a total or aggregate value is calcu
 
 ---
 
-Would you like to continue with **Custom Hooks**, **Routing Hooks**, or generate a complete summary sheet from all the sections?

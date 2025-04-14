@@ -1,4 +1,4 @@
-
+```markdown
 # Keyboard & Mouse Events in React
 
 ## Explanation
@@ -89,4 +89,4 @@ function KeyPressInput() {
 ## Polyfill/Compatibility
 - **Polyfill**: No special polyfill is required, as React’s SyntheticEvent system abstracts cross-browser differences.
 - **Build Compatibility**: Ensure ES6+ and modern JavaScript features are supported through tools like Babel.
-
+```

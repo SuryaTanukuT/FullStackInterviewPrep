@@ -1,4 +1,3 @@
-Here’s a clean, interview-ready summary of **Lazy Loading Images & Assets**—perfect to include in your notes or use in answers:
 
 ---
 
@@ -93,4 +92,3 @@ Supported in most modern browsers.
 
 ---
 
-Would you like a **cheat sheet** comparing all 5 code splitting & lazy loading techniques side by side?

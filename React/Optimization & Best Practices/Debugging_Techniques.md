@@ -1,6 +1,3 @@
-Here’s a thorough overview of **debugging techniques** tailored for React development and general JavaScript workflows, but applicable across other domains as well:
-
----
 
 ## **1. React-Specific Debugging Techniques**
 

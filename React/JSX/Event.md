@@ -1,6 +1,3 @@
-Here’s a well-structured summary of **Event Handling in JSX**—great for interviews, quick reviews, or documentation:
-
----
 
 ## 🖱️ 5. Event Handling in JSX
 

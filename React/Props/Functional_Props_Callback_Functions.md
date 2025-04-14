@@ -1,4 +1,3 @@
-Here’s a well-structured version of **"3. Functional Props (Callback Functions)"** perfect for learning, reference, or interview prep:
 
 ```markdown
 ## 3. 🔁 Functional Props (Callback Functions)

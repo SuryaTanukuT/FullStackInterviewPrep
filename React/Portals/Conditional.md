@@ -1,6 +1,3 @@
-Here’s the refined content for Conditional Portals with improved readability:
-
----
 
 # Conditional Portals
 

@@ -1,6 +1,3 @@
-Here’s the refined and well-structured content for **Event Handling in Portals**:
-
----
 
 # Event Handling in Portals
 

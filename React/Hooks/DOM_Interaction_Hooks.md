@@ -1,4 +1,3 @@
-Here’s a **Markdown version** of the **“DOM Interaction Hooks”** section for React documentation or interview prep:
 
 ---
 
@@ -90,4 +89,3 @@ A **form** where the first input should receive focus after a button click or wh
 
 ---
 
-Let me know if you want to continue with the next hook category (like `Performance Hooks`, `Custom Hooks`, or `Routing Hooks`) or merge everything into one final doc!

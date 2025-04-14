@@ -1,4 +1,3 @@
-Here’s a detailed breakdown of **“5. Object & Array Props”** to round out your props mastery in React:
 
 ```markdown
 ## 5. 🧩 Object & Array Props

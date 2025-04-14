@@ -1,4 +1,5 @@
 
+```markdown
 ## ⚡ 7. Event Handling in React
 
 ### 📘 What Is Event Handling?
@@ -146,3 +147,5 @@ function LoginForm({ onLogin }) {
 
 - No polyfills needed — React handles event normalization.
 - Works in all modern browsers via React’s synthetic event system.
+```
+

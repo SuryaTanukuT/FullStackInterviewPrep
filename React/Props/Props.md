@@ -1,4 +1,3 @@
-Here’s your **"What Are Props in React?"** section, structured clearly and cleanly for documentation or interview prep:
 
 ```markdown
 ## 🔧 What Are Props in React?

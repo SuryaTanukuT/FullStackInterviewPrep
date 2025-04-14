@@ -1,6 +1,4 @@
-Here’s the **Markdown version** of the **“Animation & Styling”** section for documentation or interview prep:
 
----
 
 # 🎨 6. Animation & Styling in React
 
@@ -79,5 +77,3 @@ Imagine a **notification banner** that smoothly fades in when a message arrives.
 - ✅ Most modern animation libraries support current browsers; check specific compatibility in library docs.
 
 ---
-
-Would you like to move on to the **next section (e.g., Custom Hooks or Routing Hooks)**, or would a **summary cheatsheet** of all these sections help at this point?

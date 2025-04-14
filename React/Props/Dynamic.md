@@ -1,4 +1,3 @@
-Here's a clean and professional version of **"2. Dynamic Props"** formatted for notes, documentation, or interview prep:
 
 ```markdown
 ## 2. ⚙️ Dynamic Props

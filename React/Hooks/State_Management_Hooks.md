@@ -1,6 +1,3 @@
-Here’s a GitHub-friendly **Markdown** version for your **“State Management Hooks”** section, ideal for documentation, notes, or interviews:
-
----
 
 # 🔄 2. State Management Hooks in React
 
@@ -117,5 +114,3 @@ You're building a **counter widget** for a dashboard:
 - Ensure modern JavaScript support via **Babel** or similar tools for older environments.
 
 ---
-
-Let me know if you want to combine this with previous hooks into a single doc or continue section-by-section!

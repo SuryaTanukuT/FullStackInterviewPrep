@@ -1,6 +1,3 @@
-Here’s a GitHub-friendly **Markdown** file for your **“Side Effect Handling”** section with clear structure, syntax-highlighted code blocks, and bullet-point formatting:
-
----
 
 # ⚙️ 1. Side Effect Handling in React
 
@@ -104,5 +101,3 @@ A component that **fetches data from an API** and displays it. The side effect (
 - 💡 Just ensure your **build tools** (like Babel or SWC) handle modern JavaScript for legacy browser support.
 
 ---
-
-Would you like this combined into one full README or separated by concepts for easier modular learning?

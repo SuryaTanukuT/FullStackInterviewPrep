@@ -120,7 +120,3 @@ export default EnhancedUserList;
 
 ---
 
-Let me know if you want to enhance this with:
-- Pagination support
-- Custom error/loading components
-- Support for `axios` or aborting requests with `AbortController`

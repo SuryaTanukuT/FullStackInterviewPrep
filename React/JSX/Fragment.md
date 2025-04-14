@@ -1,6 +1,3 @@
-Here’s a crisp and complete summary of **JSX Fragments**, perfect for interview prep or knowledge sharing:
-
----
 
 ## 🧩 4. JSX Fragments
 

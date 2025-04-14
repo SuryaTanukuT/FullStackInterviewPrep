@@ -1,4 +1,3 @@
-Here’s a clean, formatted version of **“1. Default Props”** for study notes, documentation, or interviews:
 
 ```markdown
 ## 1. 🧩 Default Props

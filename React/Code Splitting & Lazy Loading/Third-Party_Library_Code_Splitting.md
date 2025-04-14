@@ -1,4 +1,3 @@
-Here’s a crisp, interview-friendly summary of **Third-Party Library Code Splitting**—great for quick reference, prep notes, or documentation:
 
 ---
 
@@ -75,4 +74,3 @@ You’re building a form-heavy application and want to use `debounce` from Lodas
 
 ---
 
-Would you like a **visual chart** summarizing all six code splitting strategies? Or maybe a downloadable PDF version for offline prep?

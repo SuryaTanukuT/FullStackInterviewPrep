@@ -1,6 +1,3 @@
-Here’s a clear and concise summary of **JSX Components**—perfect for interviews, study, or documentation:
-
----
 
 ## 🧩 2. JSX Components
 

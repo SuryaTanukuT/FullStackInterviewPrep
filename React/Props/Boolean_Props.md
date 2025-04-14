@@ -1,4 +1,3 @@
-Here’s a structured breakdown of **"4. Boolean Props"** for clarity, usage, and interviews:
 
 ```markdown
 ## 4. ✅ Boolean Props

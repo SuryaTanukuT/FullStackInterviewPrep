@@ -1,4 +1,3 @@
-Here’s a polished, interview-ready breakdown of **Webpack Code Splitting** in React apps:
 
 ---
 
@@ -116,5 +115,3 @@ plugins: [new BundleAnalyzerPlugin()],
 ```
 
 ---
-
-Would you like a **side-by-side comparison table** of all 4 splitting types (Route, Component, Dynamic, Webpack)?

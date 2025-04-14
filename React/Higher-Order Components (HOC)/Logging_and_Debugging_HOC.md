@@ -1,6 +1,3 @@
-Here's a clean and structured summary of the **Logging & Debugging HOC** — useful for interviews, docs, or onboarding other devs:
-
----
 
 ## 🐛 4. Logging & Debugging HOC
 
@@ -91,6 +88,3 @@ export default WrappedForm;
   - Use `process.env.NODE_ENV !== 'production'` checks.
   - Strip logs with tools like **babel-plugin-transform-remove-console**.
 
----
-
-Would you like to add `componentDidMount` or `useEffect` based lifecycle logs to this HOC as well?

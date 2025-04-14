@@ -1,6 +1,3 @@
-Here’s the refined content on **Partial Hydration** with improved structure and clarity:
-
----
 
 # 2. Partial Hydration
 

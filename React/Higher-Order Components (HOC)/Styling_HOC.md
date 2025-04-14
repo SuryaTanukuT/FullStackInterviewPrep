@@ -1,6 +1,3 @@
-Here’s a neatly structured and interview-ready summary for the **Styling HOC** concept in React:
-
----
 
 ## 🎨 5. Styling HOC (Higher-Order Component)
 
@@ -104,5 +101,3 @@ export default StyledButton;
   ✅ Fully supported in **all modern React environments**.
 
 ---
-
-Would you like a version that supports **CSS classes**, **styled-components**, or **Tailwind utilities** via HOC as well?

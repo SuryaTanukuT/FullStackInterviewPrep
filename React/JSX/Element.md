@@ -1,6 +1,3 @@
-Here's a polished, easy-to-grasp explanation of **JSX Elements**—great for interview prep or quick reference:
-
----
 
 ## 🧱 1. JSX Elements
 

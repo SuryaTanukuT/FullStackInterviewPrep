@@ -1,6 +1,3 @@
-Here’s a refined and structured version of your content on **Hydration in React** for better readability and organization:
-
----
 
 # What Is Hydration in React?
 

@@ -1,4 +1,3 @@
-Here’s a polished version of **“7. Prop Types (Type Checking)”** for your notes or documentation:
 
 ```markdown
 ## 7. ✅ Prop Types (Type Checking)

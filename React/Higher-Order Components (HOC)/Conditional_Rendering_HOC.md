@@ -290,9 +290,6 @@ const ProtectedDashboard = withAuth(Dashboard);
 - `compose` utility
 - A protected component like a `Dashboard`
 
-Here’s the **updated README section** with **full HOC composition** and fallback logic included:
-
----
 
 ```md
 # 🔐 Combined HOCs Example: Auth + Logger + Fallback

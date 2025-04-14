@@ -1,6 +1,3 @@
-Here’s a well-structured summary of **Conditional Rendering in JSX**, great for interviews, documentation, or internal notes:
-
----
 
 ## 🔀 3. Conditional Rendering in JSX
 

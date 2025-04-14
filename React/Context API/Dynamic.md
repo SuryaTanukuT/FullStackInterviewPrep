@@ -1,4 +1,3 @@
-Here’s a GitHub README-friendly Markdown file for **Dynamic Context**:
 
 ---
 
