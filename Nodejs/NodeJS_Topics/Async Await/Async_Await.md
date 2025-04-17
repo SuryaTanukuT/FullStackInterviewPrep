@@ -115,6 +115,7 @@ const firstResolved = await Promise.race([
 
 ### Parallel
 Multiple async operations start simultaneously.
+All async tasks are started at the same time, and they run concurrently. Use this when tasks are independent of each other.
 ```js
 async function parallelFlow() {
   const [a, b] = await Promise.all([fetchA(), fetchB()]);
@@ -124,6 +125,7 @@ async function parallelFlow() {
 
 ### Serial
 Each async operation starts after the previous one completes.
+Each async task runs after the previous one completes. Useful when the result of one is needed for the next, or when order matters.
 ```js
 async function serialFlow() {
   const a = await fetchA();
@@ -134,6 +136,10 @@ async function serialFlow() {
 
 ### Waterfall
 Output of one function is input to the next.
+Waterfall pattern is another classic in async flow control, especially before async/await became the norm. It’s still useful when each async task depends on the result of the previous one.
+Tasks execute in series, one after another.
+Each task passes its result to the next.
+Think of it like a chain: step 1 → step 2(result of 1) → step 3(result of 2) → ...
 ```js
 async function waterfallFlow() {
   const a = await fetchA();
@@ -144,6 +150,7 @@ async function waterfallFlow() {
 ```
 
 ### Queues (With Concurrency Limits)
+You run async tasks in batches or with a limit to control how many run at the same time. Useful when handling lots of tasks (e.g. 1000+ requests), to avoid overloading the system.
 ```js
 const pLimit = require('p-limit');
 const limit = pLimit(2);
