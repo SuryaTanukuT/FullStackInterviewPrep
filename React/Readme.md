@@ -1,0 +1,10 @@
+https://dev.to/lovishduggal/mastering-config-driven-ui-a-beginners-guide-to-flexible-and-scalable-interfaces-3l91
+https://gitnation.com/contents/config-driven-ui-using-reactjs
+https://www.freecodecamp.org/news/how-to-build-reusable-react-components/
+https://dev.to/devland/how-to-scale-your-react-applications-b0a
+https://www.codementor.io/blog/react-optimization-5wiwjnf9hj
+https://www.freecodecamp.org/news/react-performance-optimization-techniques/
+https://medium.com/@raazthemystery273/setting-up-a-react-app-from-scratch-with-webpack-and-babel-fb1add2d5830
+https://robert-keller22.medium.com/3-ways-to-dynamically-render-ui-in-a-react-component-99881474f378
+https://medium.com/@rashmipatil24/handling-events-in-react-9c010f783612
+https://www.freecodecamp.org/news/how-to-handle-events-in-react-19/
