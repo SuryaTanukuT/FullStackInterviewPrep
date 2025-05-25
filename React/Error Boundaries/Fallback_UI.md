@@ -1,4 +1,4 @@
-
+```markdown
 ## 🧱 5. Fallback UI in Error Boundaries
 
 ### 🎯 **Explanation**
@@ -100,3 +100,4 @@ Instead of the whole page crashing, the user sees:
 - Add a **“Retry”** button using a state reset or reload logic.
 - Consider showing **error codes or bug IDs** for support teams.
 - Log errors behind the scenes (e.g., with Sentry or LogRocket).
+```

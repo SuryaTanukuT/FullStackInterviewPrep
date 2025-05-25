@@ -1,6 +1,3 @@
-Here's a polished and improved version of the Markdown file for your GitHub repository:
-
----
 
 # **In-Depth Guide to `useEffect` in React**
 

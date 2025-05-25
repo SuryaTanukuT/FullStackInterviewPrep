@@ -1,4 +1,3 @@
-Here’s a clean, well-organized version of your **"Nested Routing"** explanation—great for interviews, docs, or study notes:
 
 ---
 

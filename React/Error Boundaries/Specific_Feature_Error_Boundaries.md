@@ -1,4 +1,4 @@
-
+```markdown
 ## 🧩 4. Specific Feature Error Boundaries
 
 ### 🎯 **Explanation**
@@ -84,3 +84,4 @@ Instead of crashing the entire `Checkout`, a **feature-level error boundary** sh
 - Combine with **logging error boundaries** for visibility.
 - Use **dynamic fallbacks** — e.g., pass error details or retry handlers.
 - Keep a consistent **error boundary pattern** across your app to avoid confusion.
+```

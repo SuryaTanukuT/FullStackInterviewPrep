@@ -1,4 +1,4 @@
-
+```markdown
 # 🛡️ What Are Error Boundaries?
 
 **Error Boundaries** are **special React components** that catch JavaScript errors in their **child component tree** during rendering, lifecycle methods, and constructors.  
@@ -208,3 +208,4 @@ This is a **solid, comprehensive summary** of React Error Boundaries — perfect
 | ⚙️ **Babel** | Use `@babel/preset-react` for older browser support. |
 | 🌐 **SSR Note** | Error boundaries **don’t catch server-side errors** — handle SSR separately. |
 
+```

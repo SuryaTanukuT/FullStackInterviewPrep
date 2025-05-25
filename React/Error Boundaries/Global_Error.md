@@ -1,4 +1,4 @@
-
+```markdown
 ## 🌐 2. Global Error Handling with Error Boundaries
 
 ### 🎯 **Explanation**
@@ -75,3 +75,4 @@ You’re building a large-scale dashboard or e-commerce app. If something critic
 
 - 🧰 Integrate with services like **Sentry**, **LogRocket**, or **New Relic** in `componentDidCatch` for production-grade monitoring.
 
+```

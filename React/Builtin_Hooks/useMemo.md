@@ -1,6 +1,3 @@
-This polished version of the `useMemo` guide is designed to provide clarity and ready-to-use content for your GitHub repository:
-
----
 
 # **In-Depth Guide to `useMemo` in React**
 

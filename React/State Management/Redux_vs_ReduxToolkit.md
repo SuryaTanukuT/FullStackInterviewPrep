@@ -1,4 +1,3 @@
-Here's how you can format the provided information into a `README.md` file for GitHub:
 
 ```markdown
 # Redux and Redux Toolkit in React

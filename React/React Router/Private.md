@@ -1,4 +1,3 @@
-Here's the full write-up for **6. Private Routes**, formatted for clarity and completeness:
 
 ---
 

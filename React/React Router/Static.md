@@ -1,6 +1,3 @@
-Here's a well-structured and complete explanation for **4. Static Router**, tailored for interviews, documentation, or learning purposes:
-
----
 
 ## 🧭 4. StaticRouter (Server-Side Routing)
 

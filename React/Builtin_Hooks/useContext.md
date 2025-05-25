@@ -1,6 +1,3 @@
-Here’s an improved and polished version of your Markdown file to ensure clarity, organization, and enhanced readability on GitHub:
-
----
 
 # **In-Depth Guide to `useContext` in React**
 

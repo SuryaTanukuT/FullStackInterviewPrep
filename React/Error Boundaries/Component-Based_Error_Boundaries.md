@@ -1,4 +1,4 @@
-
+```markdown
 ## 🧱 1. Component-Based Error Boundaries
 
 ### 🎯 **Explanation**
@@ -90,3 +90,4 @@ function Dashboard({ chartData }) {
 - **🎯 Why:** To provide graceful fallback UI instead of crashing the whole app.
 - **📍 Where:** Common in dashboards, charts, third-party components, forms, or any part of UI that might break.
 
+```

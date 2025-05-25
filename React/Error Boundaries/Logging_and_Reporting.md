@@ -1,4 +1,4 @@
-
+```markdown
 ## 🪵 3. Logging and Reporting with Error Boundaries
 
 ### 🎯 **Explanation**
@@ -100,3 +100,4 @@ The `LoggingErrorBoundary` around it logs the failure to **Sentry**, allowing th
 
 - Combine with **global context/state** to show custom modals or report IDs to users.
 
+```

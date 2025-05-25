@@ -1,6 +1,3 @@
-This is the refined version of your `useLayoutEffect` guide, optimized for better clarity and presentation on GitHub:
-
----
 
 # **In-Depth Guide to `useLayoutEffect` in React**
 

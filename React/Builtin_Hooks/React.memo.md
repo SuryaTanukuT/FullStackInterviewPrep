@@ -1,6 +1,3 @@
-Here's a polished and refined version of the Markdown file for `React.memo`, optimized for presentation and clarity on GitHub:
-
----
 
 # **In-Depth Guide to `React.memo`**
 

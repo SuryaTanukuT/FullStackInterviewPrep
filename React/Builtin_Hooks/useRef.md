@@ -1,6 +1,3 @@
-This refined guide on React's `useRef` hook is structured for clarity and ready for your GitHub repository:
-
----
 
 # **In-Depth Guide to `useRef` in React**
 
